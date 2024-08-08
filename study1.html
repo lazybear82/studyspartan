@@ -45,14 +45,14 @@
 
         function determineWinner(userChoice, computerChoice) {
             if (userChoice === computerChoice) {
-                return `비겼습니다!`;
+                return `당신은 비겼습니다!`;
             }
             if ((userChoice === 'rock' && computerChoice === 'scissors') ||
                 (userChoice === 'scissors' && computerChoice === 'paper') ||
                 (userChoice === 'paper' && computerChoice === 'rock')) {
-                return `이겼습니다!`;
+                return `당신은 이겼습니다!`;
             } else {
-                return `졌습니다!`;
+                return `당신은 졌습니다!`;
             }
         }
     </script>
